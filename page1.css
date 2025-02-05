@@ -1,0 +1,140 @@
+* {
+  margin: 1px;
+}
+body {
+  background-image: linear-gradient(to right, rgb(243, 74, 45), rgb(11, 0, 0));
+}
+.header {
+  background-color: rgb(169, 27, 27);
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.nav_items {
+  font-size: 25px;
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.nav_items:hover {
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+  text-shadow: 1px -2px #eee5e5, 0px 2px 9px #eee5e5;
+}
+.profile {
+  margin-top: 100px;
+  display: flex;
+}
+#logo2 {
+  padding-right: 10px;
+}
+.intro {
+  color: whitesmoke;
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 5px 5px 7px #ff0000;
+  padding: 60px;
+  animation: typing 4s ease-in-out 1;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+#profile-photo {
+  margin: 120px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px 2px #ff0000, 0px 0px 20px 7px #e90c0c;
+  animation: glow 1.5s ease-in-out 3 alternate;
+}
+#profile-photo:hover {
+  margin: 120px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px 2px #ff0000, 0px 0px 20px 7px #e90c0c;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    box-shadow: 0px 0px 15px 20px #ff0000, 0px 0px 20px 20px #900303;
+  }
+  to {
+    box-shadow: 0px 0px 20px 2px #ff0000, 0px 0px 20px 2px #920505;
+  }
+}
+.resume {
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  height: 120px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 120px;
+  border: none;
+}
+.resume:hover {
+  background-color: white;
+  color: black;
+}
+.about,
+.skill,
+.project,
+.contact {
+  color: whitesmoke;
+  padding: 180px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  font-size: 24px;
+}
+#about-me,
+#skills,
+#project,
+#contact {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  font-size: 40px;
+  text-shadow: 2px 1px black, 0px 0px 20px #ffffff;
+}
+.sub-skill {
+  display: flex;
+}
+.content {
+  color: black;
+  background-color: aliceblue;
+}
+.contact {
+  background-image: linear-gradient(to left, black, gray);
+}
+#content1 {
+  background: none;
+  padding-top: 50px;
+}
+#content2 {
+  background: none;
+  color: white;
+}
+#content5 {
+  background: none;
+  display: flex;
+  justify-content: center;
+}
+#tag {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+}
