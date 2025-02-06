@@ -94,10 +94,9 @@ body {
 .project,
 .contact {
   color: whitesmoke;
-  padding: 180px;
+  padding: 150px;
   padding-top: 0px;
   padding-bottom: 30px;
-  font-size: 24px;
 }
 #about-me,
 #skills,
@@ -111,10 +110,31 @@ body {
 }
 .sub-skill {
   display: flex;
+  flex-wrap: wrap;
+}
+.tech {
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #a91b1b;
+  color: white;
+}
+.tech:hover {
+  background-color: rgba(0, 0, 0, 0.872);
+  color: #ffffff;
+  cursor: pointer;
 }
 .content {
   color: black;
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.776);
+  width: 539px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding: 25px;
+  border-radius: 20px;
+}
+.highlight {
+  font-weight: bold;
 }
 .contact {
   background-image: linear-gradient(to left, black, gray);
@@ -126,6 +146,26 @@ body {
 #content2 {
   background: none;
   color: white;
+  font-size: 23px;
+}
+#content3_1 {
+  background-image: url(WebDev.png);
+}
+#content3_2 {
+  background-image: url(PLang.png);
+}
+#content3_3 {
+  background-image: url(OS.png);
+}
+#content3_4 {
+  background-image: url(MS.png);
+}
+#content3_5 {
+  background-image: url(Dlite.png);
+}
+#content4 {
+  background-image: url(SK.png);
+  width: 1140px;
 }
 #content5 {
   background: none;
