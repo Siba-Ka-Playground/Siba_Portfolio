@@ -1,2 +1,36 @@
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 426px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .photo {
+    display: inline;
+    text-align: center;
+  }
+  .intro {
+    padding: 30px;
+    margin-top: 130px;
+    font-size: 20px;
+  }
+  #profile-photo {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+  }
+  #profile-photo:hover {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+  }
+  .about,
+  .skill,
+  .project,
+  .contact {
+    color: whitesmoke;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
 }
