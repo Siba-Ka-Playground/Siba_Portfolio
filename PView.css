@@ -1,4 +1,7 @@
-@media only screen and (max-width: 446px) {
+@media only screen and (max-width: 426px) {
+  * {
+    margin: -1px;
+  }
   .header {
     display: flex;
     flex-wrap: wrap;
@@ -15,12 +18,12 @@
     font-size: 20px;
   }
   #profile-photo {
-    margin: 20px;
+    margin: 15px;
     width: 300px;
     height: 300px;
   }
   #profile-photo:hover {
-    margin: 20px;
+    margin: 15px;
     width: 300px;
     height: 300px;
   }
