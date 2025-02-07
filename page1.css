@@ -108,7 +108,8 @@ body {
   font-size: 40px;
   text-shadow: 2px 1px black, 0px 0px 20px #ffffff;
 }
-.sub-skill {
+.sub-skill,
+.project-topic {
   display: flex;
   flex-wrap: wrap;
 }
@@ -169,9 +170,19 @@ body {
   display: flex;
   justify-content: center;
 }
+#content6 {
+  width: 1140px;
+}
 #tag {
   text-align: center;
   font-weight: bold;
   font-style: italic;
   text-shadow: 2px 2px black;
+}
+@media only screen and (max-width: 1090px) {
+  .profile {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
 }
