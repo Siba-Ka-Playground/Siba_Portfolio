@@ -176,6 +176,11 @@ body {
 #content6 {
   width: 1140px;
 }
+.preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 #tag {
   text-align: center;
   font-weight: bold;
