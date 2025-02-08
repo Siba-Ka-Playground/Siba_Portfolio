@@ -181,6 +181,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+.p1 {
+  margin: 5px;
+}
 #tag {
   text-align: center;
   font-weight: bold;
